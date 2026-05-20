@@ -29,7 +29,7 @@ public class NPCs : MonoBehaviour
 
     public void Dinheiro()
     {
-        
+        Debug.Log("Oi meu nome é: " + nome + " e tenho " + dinheiro + " coins.");
     }
 
 
