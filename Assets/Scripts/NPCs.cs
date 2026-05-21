@@ -9,28 +9,12 @@ public class NPCs : MonoBehaviour
 
     private void Start()
     {
-        //NPCs thifas = new NPCs();
-        //thifas.nome = "thifas";
-        //thifas.estuda = false;
-        //thifas.dinheiro = 7;
 
-        //NPCs joana = new NPCs();
-        //joana.nome = "joana";
-        //joana.estuda = true;
-        //joana.dinheiro = 67;
-
-        //NPCs gregorus = new NPCs();
-        //gregorus.nome = "gregorus";
-        //gregorus.estuda = true;
-        //gregorus.dinheiro = 35;
-
-        //Debug.Log("meu nome é: " no);
     }
 
-    public void Dinheiro()
+    public void Nome()
     {
         Debug.Log("Oi meu nome é: " + nome + " e tenho " + dinheiro + " coins.");
     }
-
 
 }
